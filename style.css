@@ -4,8 +4,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #141e30, #243b55);
-  font-family: sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  font-family: Arial, sans-serif;
 }
 
 .glass-box {
@@ -18,7 +18,7 @@ body {
   width: 320px;
 }
 
-h2 {
+h2, h3, p {
   color: white;
 }
 
@@ -28,6 +28,7 @@ input {
   margin: 10px 0;
   border-radius: 10px;
   border: none;
+  outline: none;
 }
 
 button {
