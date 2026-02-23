@@ -1,26 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>ABEDIN HARD TEAM</title>
+  <title>Login</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="container">
+<div class="glass-box">
+  <h2>ABEDIN HARD TEAM</h2>
 
-  <div class="form-box">
-    <h2 id="form-title">Sign In</h2>
+  <input type="email" id="email" placeholder="Email">
+  <input type="password" id="password" placeholder="Password">
 
-    <input type="email" id="email" placeholder="Enter Email">
-    <input type="password" id="password" placeholder="Enter Password">
+  <button onclick="signIn()">Sign In</button>
+  <button onclick="signUp()">Sign Up</button>
 
-    <button onclick="signIn()">Sign In</button>
-    <button onclick="signUp()">Sign Up</button>
-
-    <p id="msg"></p>
-  </div>
-
+  <p id="msg"></p>
 </div>
 
 <script type="module" src="app.js"></script>
