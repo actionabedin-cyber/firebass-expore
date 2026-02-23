@@ -36,7 +36,7 @@ window.signIn = function() {
 
   signInWithEmailAndPassword(auth, email, password)
     .then(() => {
-      window.location.href = "home.html";
+      window.location.href = "home23.html";
     })
     .catch(err => {
       document.getElementById("msg").innerText = err.message;
